@@ -1,0 +1,64 @@
+{
+  "assetsByChunkName": {
+    "component---src-pages-index-js": [
+      "component---src-pages-index-js-ad8821a39705ecaa43db.js",
+      "component---src-pages-index-js-ad8821a39705ecaa43db.js.map"
+    ],
+    "path---": [
+      "path----cac63ff5c1b42581353c.js",
+      "path----cac63ff5c1b42581353c.js.map"
+    ],
+    "component---src-pages-contact-js": [
+      "component---src-pages-contact-js-6d7c1dc1ef83a48d6bbd.js",
+      "component---src-pages-contact-js-6d7c1dc1ef83a48d6bbd.js.map"
+    ],
+    "path---more": [
+      "path---more-a0e39f21c11f6a62c5ab.js",
+      "path---more-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "component---src-layouts-index-js": [
+      "component---src-layouts-index-js-3fd8a36169bb22ac64f3.js",
+      "component---src-layouts-index-js-3fd8a36169bb22ac64f3.js.map"
+    ],
+    "path---index": [
+      "path---index-a0e39f21c11f6a62c5ab.js",
+      "path---index-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "component---src-pages-404-js": [
+      "component---src-pages-404-js-add3b03372c35bf2dd8d.js",
+      "component---src-pages-404-js-add3b03372c35bf2dd8d.js.map"
+    ],
+    "commons": [
+      "commons-4ac089a1731537d28f2e.js",
+      "commons-4ac089a1731537d28f2e.js.map"
+    ],
+    "path---404-html": [
+      "path---404-html-a0e39f21c11f6a62c5ab.js",
+      "path---404-html-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---contact": [
+      "path---contact-a0e39f21c11f6a62c5ab.js",
+      "path---contact-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "app": [
+      "app-7a7fea4071bd42fd5c31.js",
+      "app-7a7fea4071bd42fd5c31.js.map"
+    ],
+    "path---404": [
+      "path---404-a0e39f21c11f6a62c5ab.js",
+      "path---404-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "component---src-pages-about-js": [
+      "component---src-pages-about-js-7a2191cfb298534e20c4.js",
+      "component---src-pages-about-js-7a2191cfb298534e20c4.js.map"
+    ],
+    "component---src-pages-more-js": [
+      "component---src-pages-more-js-65fd40a9871d11f96584.js",
+      "component---src-pages-more-js-65fd40a9871d11f96584.js.map"
+    ],
+    "path---about": [
+      "path---about-a0e39f21c11f6a62c5ab.js",
+      "path---about-a0e39f21c11f6a62c5ab.js.map"
+    ]
+  }
+}
