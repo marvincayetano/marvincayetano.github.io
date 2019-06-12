@@ -34,8 +34,18 @@ const WorkContent = styled.div`
   `}
 `;
 
-const PaperContainer = styled.div`
+const BottomPaperContainer = styled.div`
   width: 100%;
+  transform: rotate(-2deg);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background-color: var(--white);
+  ${media.tablet`
+    transform: rotate(-1deg);
+  `}
+`;
+
+const TopPaperContainer = styled.div`
+  width: 98%;
   transform: rotate(2deg);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   background-color: var(--white);
@@ -50,6 +60,7 @@ const PaperContainer = styled.div`
 const PaperContent = styled(animated.div)`
   display: flex;
   flex-direction: column;
+  bottom: -20px;
   /* transform: rotate(-4deg); */
   background-color: var(--white);
   width: 95%;
@@ -92,4 +103,4 @@ const PaperContent = styled(animated.div)`
   }
 `;
 
-export { WorkContainer, WorkContent, PaperContainer, PaperContent };
+export { WorkContainer, WorkContent, TopPaperContainer, BottomPaperContainer, PaperContent };
