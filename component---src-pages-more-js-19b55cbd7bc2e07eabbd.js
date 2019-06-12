@@ -1,2 +1,0 @@
-webpackJsonp([0xf6d0b0aaf24c],{211:function(e,t,u){"use strict";function l(e){return e&&e.__esModule?e:{default:e}}t.__esModule=!0;var n=u(2),a=l(n),f=u(23),d=(l(f),function(){return a.default.createElement("div",null,a.default.createElement("h1",null,"MOREPAGE"))});t.default=d,e.exports=t.default}});
-//# sourceMappingURL=component---src-pages-more-js-19b55cbd7bc2e07eabbd.js.map
