@@ -17,13 +17,15 @@ export default function Hero() {
   useEffect(() => {
     setTimeout(() => {
       setVisible(true);
-    }, 3000);
+    }, 4400);
   }, []);
 
   return (
     <HeroContainer>
       {isVisible && <Header />}
-      <ShowcaseOverlay />
+      <Spring config={{ duration: 5500 }} from={{ opacity: 1 }} to={{ opacity: 0.8 }}>
+        {props => <ShowcaseOverlay style={props} />}
+      </Spring>
       <ShowcaseVideo>
         <source
           src="https://res.cloudinary.com/de5fzxeki/video/upload/v1560271425/showcase_tj2xzl.mp4"

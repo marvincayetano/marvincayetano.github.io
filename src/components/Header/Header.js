@@ -20,7 +20,7 @@ export default function Header() {
   }, []);
 
   return (
-    <Spring config={{ duration: 1500 }} from={{ opacity: 0 }} to={{ opacity: 1 }}>
+    <Spring config={{ duration: 1000 }} from={{ opacity: 0 }} to={{ opacity: 1 }}>
       {props => (
         <HeaderContainer isInside={isInside} style={props}>
           <LeftContainer>

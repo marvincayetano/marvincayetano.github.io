@@ -39,7 +39,7 @@ const HeroSubTitle = styled(animated.p)`
   margin: 0 10px;
 `;
 
-const ShowcaseOverlay = styled.div`
+const ShowcaseOverlay = styled(animated.div)`
   position: absolute;
   min-width: 100%;
   min-height: 100%;
