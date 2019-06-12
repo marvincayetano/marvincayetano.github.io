@@ -1,2 +1,0 @@
-webpackJsonp([0x9427c64ab85d],{204:function(e,t,a){"use strict";function l(e){return e&&e.__esModule?e:{default:e}}t.__esModule=!0;var n=a(4),u=l(n),d=function(){return u.default.createElement(Wrapper,null,u.default.createElement(Title,null,"Ooops, I haven't created this page yet"),u.default.createElement("p",null,"Let me know what should I add on this page. Thanks!!"))};t.default=d,e.exports=t.default}});
-//# sourceMappingURL=component---src-pages-404-js-350adb9f032a963d7eaf.js.map
