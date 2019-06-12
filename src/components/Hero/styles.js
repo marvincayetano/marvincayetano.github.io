@@ -25,6 +25,7 @@ const HeroTitle = styled(animated.h1)`
   opacity: 1;
   line-height: 62px;
   position: relative;
+  margin: 0 10px;
   ${media.tablet`
         margin-left: 5px;
     `};
@@ -35,6 +36,7 @@ const HeroSubTitle = styled(animated.p)`
   font-size: 18px;
   max-width: 600px;
   font-weight: 300;
+  margin: 0 10px;
 `;
 
 const ShowcaseOverlay = styled.div`
