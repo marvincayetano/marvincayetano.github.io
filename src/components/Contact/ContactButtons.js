@@ -17,7 +17,7 @@ export default function ContactButtons() {
           alt="Github Profile"
         />
       </a>
-      <a target="_blank" rel="noopener noreferrer" href="https://linkedin.com/marvincayetano">
+      <a target="_blank" rel="noopener noreferrer" href="https://linkedin.com/in/marvincayetano">
         <img
           src="https://res.cloudinary.com/de5fzxeki/image/upload/v1559879754/icon_linkedin_llro7q.svg"
           alt="Linkedin Profile"
