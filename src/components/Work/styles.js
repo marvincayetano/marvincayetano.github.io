@@ -50,7 +50,7 @@ const PaperContainer = styled.div`
 const PaperContent = styled(animated.div)`
   display: flex;
   flex-direction: column;
-  transform: rotate(-4deg);
+  /* transform: rotate(-4deg); */
   background-color: var(--white);
   width: 95%;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -59,11 +59,11 @@ const PaperContent = styled(animated.div)`
   letter-spacing: 1px;
   ${media.tablet`
     padding: 5px;
-    transform: rotate(-3deg);
+    /* transform: rotate(-3deg); */
   `}
   ${media.phone`
     padding: 2px;
-    transform: rotate(-2deg);
+    /* transform: rotate(-2deg); */
   `}
   .job__container {
     padding: 10px 0;
