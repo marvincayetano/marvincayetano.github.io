@@ -18,8 +18,8 @@ const HeaderContainer = styled(animated.header)`
   text-indent: 0;
   transition: background-color 180ms ease-in;
 
-  ${({ isInside }) =>
-    isInside &&
+  ${({ isinside }) =>
+    isinside &&
     `
     background-color: var(--white);
     box-shadow: 0px 4px 4px rgba(0,0,0,0.10);

@@ -22,7 +22,7 @@ export default function Header() {
   return (
     <Spring config={{ duration: 1000 }} from={{ opacity: 0 }} to={{ opacity: 1 }}>
       {props => (
-        <HeaderContainer isInside={isInside} style={props}>
+        <HeaderContainer isinside={isInside ? 1 : 0} style={props}>
           <LeftContainer>
             <LogoWrapper>
               <img

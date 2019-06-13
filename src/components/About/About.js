@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import {
   AboutContainer,
   TerminalContainer,
@@ -11,12 +11,19 @@ import {
 import AboutDescription from './AboutDescription';
 
 export default function About() {
+  const [isVisible, setIsVisible] = useState(true);
+
   return (
     <AboutContainer id="about">
-      <TerminalContainer>
+      <TerminalContainer style={{ display: !isVisible && 'none' }}>
         <TerminalWindowBar>
           <TerminalButtonContainer>
-            <div />
+            {/* eslint-disable-next-line */}
+            <div
+              onClick={() => {
+                setIsVisible(false);
+              }}
+            />
             <div />
             <div />
           </TerminalButtonContainer>
