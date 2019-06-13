@@ -37,7 +37,7 @@ export default function Hero() {
         />
       </ShowcaseVideo>
       <HeroContent>
-        <Spring from={{ bottom: -40 }} to={{ bottom: 0 }}>
+        <Spring from={{ bottom: -120 }} to={{ bottom: 0 }}>
           {props => <HeroTitle style={props}>I&apos;m Marvin Cayetano</HeroTitle>}
         </Spring>
         <Spring config={{ duration: 2500 }} from={{ opacity: 0 }} to={{ opacity: 1 }}>
