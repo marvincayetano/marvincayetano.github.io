@@ -6,7 +6,7 @@ export default function Header() {
   const [isInside, setIsInside] = useState(false);
   useEffect(() => {
     function handleScroll() {
-      if (window.scrollY > window.innerHeight) {
+      if (window.scrollY >= window.innerHeight) {
         setIsInside(true);
       } else {
         setIsInside(false);
