@@ -45,10 +45,10 @@ const TerminalWindowText = styled.div`
   justify-content: center;
   align-items: center;
   > h3 {
-    font-size: 16px;
+    font-size: 14px;
     margin-left: -70px;
     color: var(--black-20);
-    font-weight: 600;
+    font-weight: 400;
     line-height: 1.4;
     letter-spacing: 1px;
   }
