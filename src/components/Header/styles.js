@@ -17,7 +17,6 @@ const HeaderContainer = styled(animated.header)`
   letter-spacing: 0.2em;
   text-indent: 0;
   transition: background-color 180ms ease-in;
-
   ${({ isinside }) =>
     isinside &&
     `
@@ -32,9 +31,7 @@ const HeaderContainer = styled(animated.header)`
     }
     > div img {
         background-color: var(--black-20);
-    }
-  `}
-
+    }`};
   ${media.tablet`
     padding: 0;
     margin: 0;
