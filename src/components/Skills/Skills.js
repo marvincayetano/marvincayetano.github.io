@@ -13,7 +13,6 @@ export default function Skills() {
             'NODE.JS',
             'GRAPHQL',
             'CSS',
-            'STYLED-COMPONENTS',
             'HTML',
             'RESPONSIVE DESIGN',
             'PYTHON',
@@ -32,7 +31,18 @@ export default function Skills() {
           ]}
         />
         <h1>Libraries</h1>
-        <SkillsList skills={['REACT.JS', 'EXPRESS.JS', 'JQUERY', 'FOUNDATION', 'BOOTSTRAP', 'TENSORFLOW', 'KERAS']} />
+        <SkillsList
+          skills={[
+            'REACT.JS',
+            'EXPRESS.JS',
+            'JQUERY',
+            'STYLED-COMPONENTS',
+            'FOUNDATION',
+            'BOOTSTRAP',
+            'TENSORFLOW',
+            'KERAS',
+          ]}
+        />
       </SkillsContent>
     </SkillsContainer>
   );
