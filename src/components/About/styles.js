@@ -16,7 +16,7 @@ const AboutContainer = styled.section`
     grid-template-columns: 0 minmax(0, auto);
   `}
   ${media.tablet`
-    height: 1474px;
+    height: 1598px;
   `}
   ${media.phone`
     height: 1550px;
