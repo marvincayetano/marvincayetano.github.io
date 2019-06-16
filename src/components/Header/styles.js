@@ -64,7 +64,7 @@ const RightContainer = styled.div`
         padding-right: 10px;
     `}
     &:hover {
-      color: var(--gray-60);
+      color: var(--black-20);
       box-shadow: 0px -64px 0px 0px var(--white) inset;
     }
   }
