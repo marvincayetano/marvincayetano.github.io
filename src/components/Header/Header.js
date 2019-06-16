@@ -33,13 +33,23 @@ export default function Header() {
               />
             </LogoWrapper>
           </LeftContainer>
-          <RightContainer>
-            <a href="#about">ABOUT</a>
-            {/* <a href="#projects">PROJECTS</a> */}
-            <a href="#work">WORK</a>
-            <a href="#skills">SKILLS</a>
-            <a href="#contact">CONTACT</a>
-          </RightContainer>
+          <nav>
+            <RightContainer>
+              <li>
+                <a href="#about">ABOUT</a>
+              </li>
+              <li>
+                <a href="#work">WORK</a>
+              </li>
+              <li>
+                <a href="#skills">SKILLS</a>
+              </li>
+              <li>
+                <a href="#contact">CONTACT</a>
+              </li>
+              {/* <a href="#projects">PROJECTS</a> */}
+            </RightContainer>
+          </nav>
         </HeaderContainer>
       )}
     </Spring>

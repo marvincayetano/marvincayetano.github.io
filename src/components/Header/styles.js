@@ -22,7 +22,7 @@ const HeaderContainer = styled(animated.header)`
     `
     background-color: var(--white);
     box-shadow: 0px 4px 4px rgba(0,0,0,0.10);
-    > div a {
+    > nav li a {
         color: var(--black-20);
         &: hover {
             color: var(--white);
@@ -46,14 +46,14 @@ const LeftContainer = styled.div`
   `}
 `;
 
-const RightContainer = styled.div`
+const RightContainer = styled.ul`
   display: flex;
-  align-items: center;
-  justify-content: flex-start;
+  list-style: none;
   ${media.tablet`
     justify-content: space-evenly;
   `}
-  > a {
+  > li a {
+    display: flex;
     padding: 25.5px 15px;
     font-size: 11px;
     font-weight: 600;
