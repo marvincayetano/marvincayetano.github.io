@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import { media } from '../../styles/MediaQueryTemplate';
 
 const AboutContainer = styled.section`
-  height: 1000px;
+  height: 1250px;
   display: grid;
   grid-template-columns: minmax(0, 285px) minmax(741px, 1fr);
   align-items: start;
@@ -14,10 +14,12 @@ const AboutContainer = styled.section`
   overflow: hidden;
   ${media.giant`
     grid-template-columns: 0 minmax(0, auto);
-    height: 1250px;
+  `}
+  ${media.tablet`
+    height: 1500px;
   `}
   ${media.phone`
-    height: 1400px;
+    height: 1550px;
     padding-top: 130px;
   `}
 `;

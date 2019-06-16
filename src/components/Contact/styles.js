@@ -7,7 +7,7 @@ const FooterContainer = styled.footer`
   position: relative;
   display: grid;
   grid-template-rows: 1fr 1fr;
-  height: 487px;
+  height: 617px;
   justify-content: center;
   align-items: center;
   ${media.phone`
