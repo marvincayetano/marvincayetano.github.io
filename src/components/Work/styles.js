@@ -20,7 +20,7 @@ const WorkContainer = styled.div`
     height: 1200px;
   `}
   ${media.phone`
-    height: 1290px;
+    height: 1300px;
     padding-top: 130px;
   `}
 `;
