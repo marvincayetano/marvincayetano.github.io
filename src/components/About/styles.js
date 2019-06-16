@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import { media } from '../../styles/MediaQueryTemplate';
 
 const AboutContainer = styled.section`
-  height: 1250px;
+  height: 1350px;
   display: grid;
   grid-template-columns: minmax(0, 285px) minmax(741px, 1fr);
   align-items: start;
@@ -16,7 +16,7 @@ const AboutContainer = styled.section`
     grid-template-columns: 0 minmax(0, auto);
   `}
   ${media.tablet`
-    height: 1500px;
+    height: 1474px;
   `}
   ${media.phone`
     height: 1550px;

@@ -3,7 +3,7 @@ import { animated } from 'react-spring';
 import { media } from '../../styles/MediaQueryTemplate';
 
 const WorkContainer = styled.div`
-  height: 1050px;
+  height: 1150px;
   display: grid;
   grid-template-columns: minmax(741px, 1fr) minmax(0, 285px);
   align-items: start;

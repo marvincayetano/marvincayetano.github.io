@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import { media } from '../../styles/MediaQueryTemplate';
 
 const SkillsContainer = styled.div`
-  height: 1120px;
+  height: 1220px;
   display: grid;
   grid-template-columns: minmax(0, 285px) minmax(150px, 40%);
   align-items: start;
