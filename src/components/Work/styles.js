@@ -17,10 +17,10 @@ const WorkContainer = styled.div`
     grid-template-columns: minmax(0, auto) 0;
   `}
   ${media.tablet`
-    height: 1200px;
+    height: 1265px;
   `}
   ${media.phone`
-    height: 1300px;
+    height: 1290px;
     padding-top: 130px;
   `}
 `;

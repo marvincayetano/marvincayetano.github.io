@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import { media } from '../../styles/MediaQueryTemplate';
 
 const SkillsContainer = styled.div`
-  height: 1100px;
+  height: 1120px;
   display: grid;
   grid-template-columns: minmax(0, 285px) minmax(150px, 40%);
   align-items: start;
@@ -13,13 +13,14 @@ const SkillsContainer = styled.div`
   background-color: var(--black);
   overflow: hidden;
   ${media.giant`
-    height: 1150px;
+    height: 1170px;
     grid-template-columns: 0 minmax(0, 80%);
   `}
   ${media.tablet`
-    height: 1570px;
+    height: 1590px;
   `}
   ${media.phone`
+    height: 1435px;
     padding-top: 130px;
     grid-template-columns: 0 minmax(0, auto);
   `}
