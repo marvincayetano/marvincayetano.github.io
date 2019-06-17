@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import { media } from '../styles/MediaQueryTemplate';
+import media from '../styles/MediaQueryTemplate';
 import {
   AboutContainer,
   TerminalContainer,

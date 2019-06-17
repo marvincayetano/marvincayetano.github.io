@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import { animated } from 'react-spring';
-import { media } from '../../styles/MediaQueryTemplate';
+import media from '../../styles/MediaQueryTemplate';
 
 const HeroContainer = styled.section`
   margin-left: auto;

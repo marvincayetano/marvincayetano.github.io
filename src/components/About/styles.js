@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { media } from '../../styles/MediaQueryTemplate';
+import media from '../../styles/MediaQueryTemplate';
 
 const AboutContainer = styled.section`
   height: 1350px;
