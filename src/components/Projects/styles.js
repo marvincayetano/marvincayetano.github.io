@@ -21,7 +21,6 @@ const ProjectList = styled.div`
 const ProjectItemContainer = styled.a`
   height: 1000px;
   text-decoration: none;
-  background: url(${props => props.url}) center / cover no-repeat rgb(54, 54, 69);
   box-shadow: 0 23px 39px -20px rgba(0, 0, 0, 0.43);
   border-radius: 10px;
 `;

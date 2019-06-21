@@ -53,12 +53,13 @@ const ShowcaseOverlay = styled(animated.div)`
   opacity: 0.8;
 `;
 
-const ShowcaseVideo = styled.video.attrs({
+const ShowcaseVideo = styled.video.attrs(props => ({
   preload: 'true',
   autoPlay: true,
   loop: true,
   muted: true,
-})`
+  style: { top: `-${props.top * 0.35}px` },
+}))`
   position: fixed;
   min-width: 100%;
   min-height: 100%;
@@ -67,6 +68,7 @@ const ShowcaseVideo = styled.video.attrs({
   z-index: -100;
   left: 50%;
   transform: translateX(-50%);
+  /* top: ${props => props.top}; */
 `;
 
 const ScrollDiv = styled.div`

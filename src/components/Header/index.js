@@ -1,24 +1,9 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
+import propTypes from 'prop-types';
 import { Spring } from 'react-spring/renderprops';
 import { HeaderContainer, LogoWrapper, LeftContainer, RightContainer } from './styles';
 
-export default function Header() {
-  const [isInside, setIsInside] = useState(false);
-  useEffect(() => {
-    function handleScroll() {
-      if (window.scrollY >= window.innerHeight) {
-        setIsInside(true);
-      } else {
-        setIsInside(false);
-      }
-    }
-
-    window.addEventListener('scroll', handleScroll, true);
-    return () => {
-      window.removeEventListener('scroll', handleScroll, true);
-    };
-  }, []);
-
+export default function Header({ isInside }) {
   return (
     <Spring config={{ duration: 1000 }} from={{ opacity: 0 }} to={{ opacity: 1 }}>
       {props => (
@@ -55,3 +40,7 @@ export default function Header() {
     </Spring>
   );
 }
+
+Header.propTypes = {
+  isInside: propTypes.bool.isRequired,
+};
