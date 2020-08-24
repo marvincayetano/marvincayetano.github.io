@@ -3,7 +3,7 @@ import { animated } from 'react-spring';
 import media from '../../styles/MediaQueryTemplate';
 
 const WorkContainer = styled.div`
-  height: 1150px;
+  height: 1350px;
   display: grid;
   grid-template-columns: minmax(741px, 1fr) minmax(0, 285px);
   align-items: start;
@@ -17,10 +17,10 @@ const WorkContainer = styled.div`
     grid-template-columns: minmax(0, auto) 0;
   `}
   ${media.tablet`
-    height: 1265px;
+    height: 1365px;
   `}
   ${media.phone`
-    height: 1290px;
+    height: 1390px;
     padding-top: 130px;
   `}
 `;

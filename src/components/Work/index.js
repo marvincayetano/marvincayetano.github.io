@@ -40,6 +40,15 @@ export default function Work() {
                   interactions with clients and potential clients.
                 </p>
               </div>
+              <div className="job__container">
+                <h1 className="job__company">Government of Canada - IRCC</h1>
+                <h3 className="job__title">Programmer</h3>
+                <p className="job__description">
+                  Maintained the program by fixing codes, and adding new features depending on users' needs.<br/>
+                  Developed a new program that reads different documents including passport using Machine Learning<br/>
+                  Learned the whole process of the organization and, collaborated with other employees to think ideas that will help the process to be faster and accurate
+                </p>
+              </div>
             </PaperContent>
           </BottomPaperContainer>
         </TopPaperContainer>

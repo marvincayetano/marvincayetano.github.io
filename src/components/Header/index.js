@@ -32,7 +32,9 @@ export default function Header({ isInside }) {
               <li>
                 <a href="#contact">CONTACT</a>
               </li>
-              {/* <a href="#projects">PROJECTS</a> */}
+              <li>
+                <a href="/projects">PROJECTS</a>
+              </li>
             </RightContainer>
           </nav>
         </HeaderContainer>
