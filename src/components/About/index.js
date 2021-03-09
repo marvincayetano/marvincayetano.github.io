@@ -40,11 +40,11 @@ export default function About() {
             <AboutDescription text="Hello World!" />
             <AboutDescription text="I'm Marvin Cayetano," />
             <AboutDescription
-              text="a currently 3rd year student in Computer Engineering -
+              text="a graduate in Computer Engineering -
             Computing Science program \"
             />
             <AboutDescription
-              text="at Algonquin College which is located in Ottawa,
+              text="from Algonquin College which is located in Ottawa,
             Canada.
 "
             />

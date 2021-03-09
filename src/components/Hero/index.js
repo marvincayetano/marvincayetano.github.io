@@ -58,7 +58,7 @@ export default function Hero() {
         <Spring config={{ duration: 2500 }} from={{ opacity: 0 }} to={{ opacity: 1 }}>
           {props => (
             <HeroSubTitle style={props}>
-              A computer engineering student at Alqonquin College located in Ottawa, Canada.
+              A computer engineering graduate from Alqonquin College located in Ottawa, Canada.
             </HeroSubTitle>
           )}
         </Spring>
